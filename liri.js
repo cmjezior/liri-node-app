@@ -1,5 +1,5 @@
 require("dotenv").config();
-var keys = require('./keys.js');
+var keys = require('keys.js');
 var action = process.argv[2];
 var value = process.argv[3];
 var request = require('request');
